@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+.sidebar-v2-agency #sidebar-v2 .default-bg-color, .sidebar-v2-agency #sidebar-v2.default-bg-color {
+    background: white;
+}
+#sidebar-v2 *{
+    font-family: 'Space Grotesk', sans-serif;
+font-weight: 900;
+
+}
+body *{
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+.active *{
+color: #0034b1 !important;
+}
+
+
+/* Menu title */
+.transition-slowest .flex-col .menu-title{
+ color:#606060 !important;
+
+}
+
+/* Span Tag */
+.transition-slowest .flex-col span:nth-child(2){
+ color:#0034b1;
+}
+.transition-slowest .flex-col .cursor-pointer{
+ background-color:#ffffff !important;
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Span Tag */
+.lg\:justify-between .items-center span{
+ color:#606060 !important;
+}
+
+
+/* Font Icon */
+.transition-slowest .flex-col .fas{
+ display:none;
+}
+/* Location icon */
+.lg\:justify-between div .hl_location_icon{
+ display:none;
+}
+.hl_nav-header-without-footer nav a span{
+  color: #3f78e0 !important;
+}
